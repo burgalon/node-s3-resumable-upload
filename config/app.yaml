@@ -1,0 +1,12 @@
+default:
+  authentication_endpoint: 'http://localhost:3000/api/v1/allow_upload.json'
+  port: 8081
+  aws_key: AWS_KEY
+  aws_secret: AWS_SECRET
+  bucket_name: BUCKET_NAME
+production:
+  authentication_endpoint: 'http://localhost:3000/api/v1/allow_upload.json'
+  port: 80
+  aws_key: AWS_KEY
+  aws_secret: AWS_SECRET
+  bucket_name: BUCKET_NAME

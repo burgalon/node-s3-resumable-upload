@@ -1,0 +1,19 @@
+{
+  "author": "Alon Burg <http://github.com/burgalon>",
+  "name": "s3-upload-stream",
+  "description": "Node server which receives uploads and streams them directly to S3 without disk IO",
+  "version": "0.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "aws2js": "git://github.com/burgalon/aws2js.git#revert-to-pipe",
+    "restler": "*",
+    "coffee-script": "*",
+    "yaml-config": "*",
+    "ecstatic": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
